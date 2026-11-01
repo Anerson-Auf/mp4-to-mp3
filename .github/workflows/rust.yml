@@ -28,5 +28,5 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: mp4-to-mp3-windows
-          path: target/release/mp4-to-mp3.exe
+          path: target/release/mp4tomp3.exe
           if-no-files-found: error
